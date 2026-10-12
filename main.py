@@ -21,5 +21,3 @@ def check_membership():
             if result
             else f"Sorry {full_name}, your name is not on the list."
         )
-
-    document.getElementById("result").innerText = message
